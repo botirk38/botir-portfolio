@@ -29,7 +29,7 @@ const Contact = () => {
     //click on create a new template then click on save.
     emailjs
       .send(
-        'service_1pr6tax', // paste your ServiceID here (you'll get one when your service is created).
+        'service_z7wzxql', // paste your ServiceID here (you'll get one when your service is created).
         'template_blmksxw', // paste your TemplateID here (you'll find it under email templates).
         {
           from_name: form.name,

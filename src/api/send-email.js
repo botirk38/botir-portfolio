@@ -1,9 +1,5 @@
-const axios = require('axios');
 
-module.exports = async (req, res) => {
-  if (req.method !== 'POST') {
-    return res.status(405).json({ message: 'Method Not Allowed' });
-  }
+export async function POST(req, res) {
 
   const { name, email, message } = req.body;
 
@@ -30,3 +26,7 @@ module.exports = async (req, res) => {
   }
 };
 
+
+export const config = {
+  runtime: 'nodejs',
+};

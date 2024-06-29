@@ -25,7 +25,6 @@ import sendHover from './icons/sendHover.png';
 
 import css from './tech/css.png';
 import docker from './tech/docker.png';
-import figma from './tech/figma.png';
 import git from './tech/git.png';
 import html from './tech/html.png';
 import javascript from './tech/javascript.png';
@@ -36,19 +35,41 @@ import tailwind from './tech/tailwind.png';
 import typescript from './tech/typescript.png';
 import graphql from './tech/graphql.png';
 import postgresql from './tech/postgresql.png';
-import rubyrails from './tech/rubyrails.png';
+import c_icon from './icons/c_icon.png'
+import cpp_icon from './tech/cpp_icon.png'
+import rust_icon from './tech/rust_icon.png'
+import go_icon from './tech/go_icon.png'
+import java from "./tech/java.jpg"
+import angular from "./tech/angular.jpg"
+import aws from "./tech/aws.webp"
+import django from "./tech/django.png"
+import elasticsearch from "./tech/elasticsearch.jpg"
+import python from "./tech/python_icon.jpg"
+import flask from "./tech/flask.png"
+import github_actions from "./tech/github_actions.png"
+import kafka from "./tech/kafka.png"
+import kubernetes from "./tech/kubernetes.png"
+import linux from "./tech/linux.png"
+import mongodb from "./tech/MongoDB icon.svg"
+import mysql from "./tech/mysql.png"
+import npm from "./tech/npm.jpg"
+import rabbitmq from "./tech/rabbitmq.jpg"
+import slack from "./tech/slack.png"
+import spring from "./tech/spring.png"
+import trello from "./tech/trello.png"
 
-import coverhunt from './company/coverhunt.png';
-import dcc from './company/dcc.png';
-import kelhel from './company/kelhel.png';
-import microverse from './company/microverse.png';
+import fashion_ai from "./company/fashion_ai.png"
+import kreativstorm from "./company/kreativstorm.webp"
 
-import komikult from './projects/komikult.png';
-import leaderboard from './projects/leaderboard.png';
-import math from './projects/math-magicians.png';
+import smartguardian from "./projects/smart-guardian.png"
+import fastkey from "./projects/fastkey.webp"
+import flowstream from "./projects/flowstream.webp"
+import dockstream from "./projects/dockstream.webp"
 import movie from './projects/movie-metro.png';
 import nyeusi from './projects/nyeusi.png';
 import space from './projects/space-hub.png';
+import infrastructure from "./icons/infrastructure.webp"
+import botir from "./personal/photo.png"
 
 export {
   bwmap,
@@ -74,26 +95,47 @@ export {
   sendHover,
   css,
   docker,
-  figma,
   git,
   graphql,
   html,
   javascript,
   nodejs,
   postgresql,
-  rubyrails,
   reactjs,
   redux,
   tailwind,
   typescript,
-  komikult,
-  leaderboard,
-  math,
   movie,
   nyeusi,
   space,
-  coverhunt,
-  dcc,
-  kelhel,
-  microverse,
+  infrastructure,
+  botir,
+  c_icon,
+  cpp_icon,
+  rust_icon,
+  go_icon,
+  python,
+  java,
+  angular,
+  aws,
+  django,
+  elasticsearch,
+  fashion_ai,
+  flask,
+  github_actions,
+  kafka,
+  kreativstorm,
+  kubernetes,
+  linux,
+  mongodb,
+  mysql,
+  npm,
+  rabbitmq,
+  slack,
+  spring,
+  trello,
+  smartguardian,
+  fastkey,
+  flowstream,
+  dockstream
 };

@@ -37,12 +37,12 @@ const About = () => {
       <motion.p
         variants={fadeIn('', '', 0.1, 1)}
         className="mt-4 text-taupe text-[18px] max-w-3xl leading-[30px]">
-        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Debitis
-        sapiente ipsum dolorum dicta eaque cumque inventore molestias, beatae ea
-        quaerat alias accusamus voluptas autem! Alias odit voluptates in totam
-        vitae dignissimos minus eaque culpa unde tempore dolore aperiam
-        obcaecati voluptatum aliquam corrupti, suscipit accusamus! Odit unde
-        veniam dolorum ipsum doloribus.
+        Hi, I'm Botir Khaltaev, a Software Engineer specializing in backend development. I'm currently pursuing a Bachelor's degree in Computer Science with AI at Royal Holloway University of London, achieving 85%.
+
+        I've interned at Fashion AI and Kreativstorm, enhancing system performance and user engagement. I created SmartGuardian, a VSCode extension for detecting vulnerabilities in Solana smart contracts, improving blockchain security.
+
+
+        Let's innovate together!
       </motion.p>
 
       <div className="mt-20 flex flex-wrap gap-10">
@@ -55,3 +55,4 @@ const About = () => {
 };
 
 export default SectionWrapper(About, 'about');
+

@@ -1,32 +1,29 @@
 import {
-  frontend,
   backend,
-  ux,
   prototyping,
   javascript,
   typescript,
-  html,
-  css,
-  reactjs,
-  redux,
-  tailwind,
-  nodejs,
   git,
-  figma,
   docker,
   postgresql,
-  rubyrails,
-  graphql,
-  komikult,
-  leaderboard,
-  math,
-  movie,
-  nyeusi,
-  space,
-  coverhunt,
-  dcc,
-  kelhel,
-  microverse,
+  smartguardian,
+  infrastructure,
+  c_icon,
+  cpp_icon,
+  rust_icon,
+  go_icon,
+  python,
+  java,
+  linux,
+  kubernetes,
+  mongodb,
+  kafka,
+  rabbitmq,
+  fashion_ai,
+  kreativstorm,
+  fastkey,
+  flowstream,
+  dockstream
 } from '../assets';
 
 export const navLinks = [
@@ -46,118 +43,124 @@ export const navLinks = [
 
 const services = [
   {
-    title: 'Frontend Developer',
-    icon: frontend,
-  },
-  {
     title: 'Backend Developer',
     icon: backend,
   },
+
   {
-    title: 'UI/UX Design',
-    icon: ux,
+    title: "Infrastructure Developer",
+    icon: infrastructure
   },
+
   {
     title: 'Software Prototyping',
     icon: prototyping,
   },
 ];
 
+
 const technologies = [
   {
-    name: 'HTML 5',
-    icon: html,
+    name: 'C',
+    icon: c_icon, // Add the appropriate icon for C
   },
   {
-    name: 'CSS 3',
-    icon: css,
+    name: 'C++',
+    icon: cpp_icon, // Add the appropriate icon for C++
+  },
+  {
+    name: 'Rust',
+    icon: rust_icon, // Add the appropriate icon for Rust
+  },
+  {
+    name: 'Go',
+    icon: go_icon, // Add the appropriate icon for Go
+  },
+  {
+    name: 'Python',
+    icon: python,
   },
   {
     name: 'JavaScript',
     icon: javascript,
   },
   {
+    name: 'Java',
+    icon: java,
+  },
+  {
     name: 'TypeScript',
     icon: typescript,
   },
   {
-    name: 'React JS',
-    icon: reactjs,
+    name: 'Git',
+    icon: git,
+  },
+
+  {
+    name: 'Docker',
+    icon: docker,
   },
   {
-    name: 'Redux Toolkit',
-    icon: redux,
+    name: 'Linux',
+    icon: linux, // Add the appropriate icon for Linux
   },
   {
-    name: 'Tailwind CSS',
-    icon: tailwind,
+    name: 'Kubernetes',
+    icon: kubernetes, // Add the appropriate icon for Kubernetes
   },
   {
-    name: 'Node JS',
-    icon: nodejs,
-  },
-  {
-    name: 'Rails',
-    icon: rubyrails,
-  },
-  {
-    name: 'graphql',
-    icon: graphql,
-  },
-  {
-    name: 'postgresql',
+    name: 'PostgreSQL',
     icon: postgresql,
   },
   {
-    name: 'git',
-    icon: git,
+    name: 'MongoDB',
+    icon: mongodb,
   },
   {
-    name: 'figma',
-    icon: figma,
+    name: 'Apache Kafka',
+    icon: kafka, // Add the appropriate icon for Apache Kafka
   },
   {
-    name: 'docker',
-    icon: docker,
+    name: 'RabbitMQ',
+    icon: rabbitmq, // Add the appropriate icon for RabbitMQ
   },
 ];
 
 const experiences = [
   {
-    title: 'Front-End Developer',
-    company_name: 'Cover Hunt',
-    icon: coverhunt,
+    title: 'Software Engineer Intern',
+    company_name: 'Fashion AI',
+    icon: fashion_ai, // Add the appropriate icon for Fashion AI
     iconBg: '#333333',
-    date: 'Aug 2021 - Feb 2022',
+    date: 'Nov 2023 - Mar 2024',
+    points: [
+      'Led the development of a sophisticated authentication system for Competiio, integrating Auth0 with Next.js and Spring.',
+      'Designed a highly interactive competition interface, significantly enhancing user engagement and operational efficiency.',
+      'Implemented Redis to optimize database interactions, reducing calls by 15% for real-time updates.',
+      'Applied advanced search algorithms in Spring, markedly improving data retrieval speed and accuracy.'
+    ],
   },
   {
-    title: 'Mentor (Volunteer)',
-    company_name: 'Microverse',
-    icon: microverse,
+    title: 'Frontend Engineer Intern',
+    company_name: 'Kreativstorm',
+    icon: kreativstorm, // Add the appropriate icon for Kreativstorm
     iconBg: '#333333',
-    date: 'Mar 2022 - May 2022',
-  },
-  {
-    title: 'Junior Software Engineer',
-    company_name: 'Kelhel',
-    icon: kelhel,
-    iconBg: '#333333',
-    date: 'May 2022 - Oct 2022',
-  },
-  {
-    title: 'Full Stack Developer',
-    company_name: 'Diversity Cyber Council',
-    icon: dcc,
-    iconBg: '#333333',
-    date: 'Sep 2022 - Present',
-  },
+    date: 'Jul 2023 - Aug 2023',
+    points: [
+      'Developed and deployed visually appealing websites with HTML, CSS, and JavaScript, boosting user engagement by 30% and reducing bounce rate by 20%.',
+      'Played a key role in enhancing site loading speed by 15% through collaborative performance optimization.',
+      'Utilized user interaction data to refine website design, achieving a 15% increase in session duration and a 10% uplift in conversion rates.'
+    ],
+  }
 ];
+
 
 const projects = [
   {
     id: 'project-1',
-    name: 'KomiKult',
-    description: 'A comic characters list app that displays Marvel characters.',
+    name: 'SmartGuardian',
+    description: 'A tool that allows detection of vulnerabilites in SVM based smart contracts',
     tags: [
       {
         name: 'react',
@@ -172,15 +175,15 @@ const projects = [
         color: 'pink-text-gradient',
       },
     ],
-    image: komikult,
-    repo: 'https://github.com/shaqdeff/KomiKult',
-    demo: 'https://shaqdeff.github.io/KomiKult/',
+    image: smartguardian,
+    repo: 'https://github.com/botirk38/GuardianAI',
+    demo: 'https://smart-guardian.com',
   },
   {
     id: 'project-2',
-    name: 'Leaderboard',
+    name: 'SoloAgent',
     description:
-      'A leaderboard list app that displays scores submitted by different players.',
+      'A AI agent that generates a MVP for a software product from a specification.',
     tags: [
       {
         name: 'react',
@@ -195,14 +198,13 @@ const projects = [
         color: 'pink-text-gradient',
       },
     ],
-    image: leaderboard,
-    repo: 'https://github.com/shaqdeff/Leaderboard',
-    demo: 'https://shaqdeff.github.io/Leaderboard/',
+    repo: 'https://github.com/botirk38/SoloAgent',
+    demo: 'https://github.com/botirk38/SoloAgent',
   },
   {
     id: 'project-3',
-    name: 'Math Magicians',
-    description: 'This is a single-page calculator app built with React',
+    name: 'fastkey',
+    description: 'A custom key value store database with various features such as streams, replication, and transactions.',
     tags: [
       {
         name: 'nextjs',
@@ -217,14 +219,14 @@ const projects = [
         color: 'pink-text-gradient',
       },
     ],
-    image: math,
-    repo: 'https://github.com/shaqdeff/Math-Magicians',
-    demo: 'https://inspiring-medovik-37d3b3.netlify.app/',
+    image: fastkey,
+    repo: 'https://github.com/botirk38/fastkey',
+    demo: 'https://github.com/botirk38/fastkey',
   },
   {
     id: 'project-4',
-    name: 'Movie Metro',
-    description: `A single-page application that allows users to search for any movie or show's ratings and its details.`,
+    name: 'Flowstream',
+    description: 'A high performance designed to enhance peer-to-peer file sharing built with Go.',
     tags: [
       {
         name: 'nextjs',
@@ -239,15 +241,15 @@ const projects = [
         color: 'pink-text-gradient',
       },
     ],
-    image: movie,
-    repo: 'https://github.com/shaqdeff/Movie-Metro',
-    demo: 'https://movie-metro.netlify.app/',
+    image: flowstream,
+    repo: 'https://github.com/botirk38/FlowStream',
+    demo: 'https://github.com/botirk38/FlowStream',
   },
   {
     id: 'project-5',
-    name: 'Nyeusi Fest Site',
+    name: 'Dockstream',
     description:
-      'This is a demo concert website for a music festival called Nyeusi.',
+      'DockStream is a command-line utility designed to facilitate the management and isolation of containerized applications.',
     tags: [
       {
         name: 'nextjs',
@@ -262,10 +264,11 @@ const projects = [
         color: 'pink-text-gradient',
       },
     ],
-    image: nyeusi,
-    repo: 'https://github.com/shaqdeff/Nyeusi-Fest-Site',
-    demo: 'https://shaqdeff.github.io/Nyeusi-Fest-Site/',
+    image: dockstream,
+    repo: 'https://github.com/botirk38/DockStream',
+    demo: 'https://github.com/botirk38/DockStream',
   },
 ];
 
 export { services, technologies, experiences, projects };
+

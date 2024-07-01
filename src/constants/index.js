@@ -201,7 +201,7 @@ const projects = [
     ],
     image: soloAgent,
     repo: 'https://github.com/botirk38/SoloAgent',
-    demo: 'https://github.com/botirk38/SoloAgent',
+    demo: 'https://soloagent.vercel.app/',
   },
   {
     id: 'project-3',

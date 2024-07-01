@@ -65,9 +65,8 @@ import smartguardian from "./projects/smart-guardian.png"
 import fastkey from "./projects/fastkey.webp"
 import flowstream from "./projects/flowstream.webp"
 import dockstream from "./projects/dockstream.webp"
-import movie from './projects/movie-metro.png';
-import nyeusi from './projects/nyeusi.png';
-import space from './projects/space-hub.png';
+import soloAgent from "./projects/solo-agent.png"
+
 import infrastructure from "./icons/infrastructure.webp"
 import botir from "./personal/photo.png"
 
@@ -105,9 +104,6 @@ export {
   redux,
   tailwind,
   typescript,
-  movie,
-  nyeusi,
-  space,
   infrastructure,
   botir,
   c_icon,
@@ -137,5 +133,6 @@ export {
   smartguardian,
   fastkey,
   flowstream,
-  dockstream
+  dockstream,
+  soloAgent
 };

@@ -23,7 +23,8 @@ import {
   kreativstorm,
   fastkey,
   flowstream,
-  dockstream
+  dockstream,
+  soloAgent
 } from '../assets';
 
 export const navLinks = [
@@ -198,6 +199,7 @@ const projects = [
         color: 'pink-text-gradient',
       },
     ],
+    image: soloAgent,
     repo: 'https://github.com/botirk38/SoloAgent',
     demo: 'https://github.com/botirk38/SoloAgent',
   },

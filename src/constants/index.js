@@ -24,7 +24,8 @@ import {
   fastkey,
   flowstream,
   dockstream,
-  soloAgent
+  soloAgent,
+  shellmaster
 } from '../assets';
 
 export const navLinks = [
@@ -270,6 +271,14 @@ const projects = [
     repo: 'https://github.com/botirk38/DockStream',
     demo: 'https://github.com/botirk38/DockStream',
   },
+  {
+    id: 'project-6',
+    name: 'ShellMaster',
+    description: 'MyShell, a custom Unix shell designed to mimic the behavior of common shell commands.',
+    image: shellmaster,
+    repo: 'https://github.com/botirk38/ShellMaster',
+    demo: 'https://github.com/botirk38/ShellMaster',
+  }
 ];
 
 export { services, technologies, experiences, projects };

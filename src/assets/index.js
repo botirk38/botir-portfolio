@@ -66,6 +66,7 @@ import fastkey from "./projects/fastkey.webp"
 import flowstream from "./projects/flowstream.webp"
 import dockstream from "./projects/dockstream.webp"
 import soloAgent from "./projects/solo-agent.png"
+import shellmaster from "./projects/shellmaster.webp"
 
 import infrastructure from "./icons/infrastructure.webp"
 import botir from "./personal/photo.png"
@@ -134,5 +135,6 @@ export {
   fastkey,
   flowstream,
   dockstream,
-  soloAgent
+  soloAgent,
+  shellmaster
 };
